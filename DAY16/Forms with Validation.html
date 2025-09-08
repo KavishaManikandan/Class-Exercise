@@ -1,0 +1,14 @@
+<form id="myForm">
+  <input type="text" id="username" required placeholder="Enter username">
+  <input type="email" id="email" required placeholder="Enter email">
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+document.getElementById("myForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    let user = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    if(user && email) alert("Form submitted: " + user + ", " + email);
+});
+</script>

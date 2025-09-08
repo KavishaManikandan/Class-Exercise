@@ -1,0 +1,42 @@
+using System;
+
+class Student
+{
+    public string Name;
+    public int Age;
+    public string Grade;
+    public Student(string N, int A, string G)
+    {
+        Name= N;
+        Age= A;
+        Grade= G;
+    }
+
+
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        
+        Console.WriteLine("Enter student's name:");
+        string a = Console.ReadLine();
+  
+
+        Console.WriteLine("Enter student's age:");
+         int b = Convert.ToInt32(Console.ReadLine());
+   
+
+        Console.WriteLine("Enter student's grade:");
+         string c = Console.ReadLine();
+     
+
+        Student str= new Student (a,b,c);
+        Console.WriteLine("Student Name: "+ str.Name);
+        Console.WriteLine("Student Age: "+ str.Age);
+        Console.WriteLine("Student Grade: "+ str.Grade);
+
+        
+    }
+}

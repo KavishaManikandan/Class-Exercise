@@ -1,0 +1,20 @@
+CREATE TABLE Table1 (Value INT);
+CREATE TABLE Table2 (Value INT);
+
+INSERT INTO Table1 VALUES (1),(2),(3);
+INSERT INTO Table2 VALUES (3),(4),(5);
+
+-- UNION
+SELECT Value FROM Table1
+UNION
+SELECT Value FROM Table2;
+
+-- INTERSECT
+SELECT Value FROM Table1
+INTERSECT
+SELECT Value FROM Table2;
+
+-- EXCEPT (Minus)
+SELECT Value FROM Table1
+EXCEPT
+SELECT Value FROM Table2;

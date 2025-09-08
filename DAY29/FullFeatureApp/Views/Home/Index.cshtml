@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<h2>Home Page</h2>
+<p>Welcome to the Full Feature ASP.NET Core App.</p>
+<p>Session Started At: @HttpContext.Session.GetString("SessionStart")</p>
+<a asp-action="Register">Go to Register</a>

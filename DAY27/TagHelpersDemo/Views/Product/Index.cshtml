@@ -1,0 +1,30 @@
+@model IEnumerable<TagHelpersDemo.Models.Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Products List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>
+                    <a asp-action="Create" class="btn btn-primary">Add New</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

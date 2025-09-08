@@ -1,0 +1,20 @@
+﻿@page
+@model RazorPagesApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Razor Pages — Greeting Form</h1>
+
+<form method="post">
+    <label>Enter your name: </label>
+    <input asp-for="Name" />
+    <button type="submit">Say Hello</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div style="margin-top:20px;">
+        <strong>@Model.Message</strong>
+    </div>
+}

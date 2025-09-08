@@ -1,0 +1,40 @@
+using System;
+
+class Book
+{
+    public string Title;
+    public string Author;
+    public int Year;
+    
+    public Book(string title, string author, int year)
+{
+    Title = title;
+    Author = author;
+    Year = year;
+}
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        
+        Console.WriteLine("Enter book's title:");
+        string a = Console.ReadLine();
+      
+
+        Console.WriteLine("Enter book's author:");
+        string b = Console.ReadLine();
+        
+
+        Console.WriteLine("Enter book's year:");
+        int c = Convert.ToInt32(Console.ReadLine());
+      
+        Book bk = new Book(a,b,c);
+        Console.WriteLine("Book Title: "+ bk.Title);
+        Console.WriteLine("Book Author: "+ bk.Author);
+        Console.WriteLine("Book Year: "+ bk.Year);
+             ..
+    }
+}
+}

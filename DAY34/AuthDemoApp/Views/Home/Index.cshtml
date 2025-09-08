@@ -1,0 +1,5 @@
+﻿
+<h2>Welcome @User.Identity.Name</h2>
+<p>Your Role: @User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Role)?.Value</p>
+<a asp-controller="Home" asp-action="AdminOnly">Go to Admin Page</a><br/>
+<a asp-controller="Account" asp-action="Logout">Logout</a>

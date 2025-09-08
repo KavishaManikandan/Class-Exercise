@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wm84PeHWImo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kavi\\Desktop\\Wipro_2025\\DAY36\\RestApiApp\\RestApiApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kavi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\Kavi\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

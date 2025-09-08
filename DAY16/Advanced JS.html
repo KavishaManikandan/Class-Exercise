@@ -1,0 +1,21 @@
+<script>
+    // Arrow function
+    const square = x => x*x;
+    console.log(square(5));
+
+    // Template literals
+    console.log(`My name is ${name} and I am ${age} years old`);
+
+    // Promise & Async
+    function fetchData() {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => resolve("Data loaded"), 2000);
+        });
+    }
+
+    async function getData() {
+        const data = await fetchData();
+        console.log(data);
+    }
+    getData();
+</script>
