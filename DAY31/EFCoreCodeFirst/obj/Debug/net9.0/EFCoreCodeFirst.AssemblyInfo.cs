@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreCodeFirst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76f858f0789fd0019febc88f1b8e211b996efa4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreCodeFirst")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreCodeFirst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
